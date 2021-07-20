@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  makeStyles,
   AppBar,
   Toolbar,
   IconButton,
@@ -35,9 +34,9 @@ import History from '@material-ui/icons/History';
 
 import AddCircle from '@material-ui/icons/AddCircle';
 
-import useStyles from './styles';
+import useStyles from '../styles';
 
-import videos from './videos';
+import videos from '../videos';
 
 function Home({ darkMode, setDarkMode }) {
   const classes = useStyles();
